@@ -1,0 +1,80 @@
+.navbarScroll.navbarDark {
+    background-color: rgb(21, 156, 156);
+}
+
+
+.bgimage {
+    height: 100vh;
+    background: url('https://www.imageshine.in/uploads/gallery/Free-vector-watercolor-background-Wallpaper.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(7, 227, 238);
+}
+
+
+.imageAboutPage {
+    width: 20%;
+}
+
+
+.SkillsText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.SkillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .SkillsIcon {
+    color: #a4ac12;
+}
+
+.SkillsText:hover {
+    border: 1px solid #35437b;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover,
+.fa-file:hover {
+    color: #930e96;
+}
+
+.fab,
+.fa {
+    color: #1e0d0d;
+}
+
+#contact {
+    background-color: #8c3b3b;
+    text-align: center;
+}
